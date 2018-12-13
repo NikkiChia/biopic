@@ -3,6 +3,7 @@ function preload() {
 	headshot = loadImage('headshot.png');
 }
 function setup() {
+	headshot.resize(20,0)
 	createCanvas(400, 600);
 }
 
